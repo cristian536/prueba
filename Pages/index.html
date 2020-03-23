@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/estilo1.css" />
+    <title>Manejo formularios</title>
+  </head>
+  <body>
+    <h1>Manejo de formularios para ingresar</h1>
+    <br />
+    <a href="./Pages/Presentacion.html">Página manejo DOM básico</a>
+    <br />
+    <a href="./Pages/Contador.html">Página manejo DOM básico 2</a>
+
+    <form action="./Pages/Presentacion.html" method="get">
+      <div class="Ingreso">
+        <label for="Nombre">Nombre:</label>
+        <input
+          type="text"
+          id="Nombre"
+          name="Nombre"
+          value=""
+          placeholder="Nombre"
+        />
+      </div>
+
+      <div class="Ingreso">
+        <label for="Apellido">Apellido:</label>
+        <inputgi
+          type="text"
+          name="Apellido"
+          value=""
+          id="Apellido"
+          placeholder="Apellido"
+        />
+      </div>
+
+      <div class="Ingreso">
+        <label for="coreo">E-mail:</label>
+        <input type="email" name="correo" id="correo" required />
+      </div>
+
+      <div class="Ingreso">
+        <label for="contrasena">Contraseña: </label>
+        <head
+          input
+          type="password"
+          name="contrasena"
+          id="contrasena"
+          required
+        />
+        <input
+          type="password"
+          name="contrasena"
+          id="contrasena"
+          minlength="3"
+          pattern="(?=.*\d).{3,}"
+        />
+      </div>
+
+      <div>
+        <label for="perros">Perro</label>
+        <input type="radio" name="animal" id="perros" value="perro" /> <br />
+        <label for="gatos">Gato</label>
+        <input type="radio" name="animal" id="gatos" value="gato" />
+      </div>
+
+      <div class="Ingreso">
+        <input type="submit" value="Enviar" />
+      </div>
+    </form>
+
+    <!--  
+        Campos sean obligatorios
+        radio buttons
+    
+    -->
+  </body>
+</html>

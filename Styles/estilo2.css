@@ -1,0 +1,9 @@
+.movimiento {
+  color: red;
+  font-size: large;
+}
+
+.completado {
+  text-decoration: line-through;
+  color: blue;
+}
