@@ -3,7 +3,7 @@
 }
 
 .ganador {
-  color: green;
+  color: blueviolet;
   animation: blink-animation 1s steps(5, start) infinite;
 }
 
